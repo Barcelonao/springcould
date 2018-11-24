@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>config</name>
-    <description>Demo project for Spring Boot </description>
+    <description>Spring Could Config</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
