@@ -8,7 +8,7 @@
 
 ###### 2. 配置中心: springconfig 7001
 
-###### 3. user-service:8080
+###### 3. 服务1: user-service:8080
 
 ###### 4. 网关 zuul:2001
 
