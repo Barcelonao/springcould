@@ -4,14 +4,17 @@
 
 端口
 
-1. eureka 1111
+######1. 注册中心: eureka 1111
 
-2. springconfig 7001
+######2. 配置中心: springconfig 7001
 
-3.user-module:8082
+######3. user-service:8080
 
-4.zuul:2001
+######4. 网关 zuul:2001
 
-othertest 只是个test
-kafka
+######5.other
+
+othertest 测试工程
+
+kafka 与spring整合测试demo
 
