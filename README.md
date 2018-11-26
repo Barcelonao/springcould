@@ -15,5 +15,3 @@
 othertest 只是个test
 kafka
 
-遇见问题: SpringCould Config 服务化之后报错: spring cloud config server---No instances found of configserver 版本SpringBoot 2.1  springcould:Finchley.RELEASE 
-
