@@ -9,20 +9,13 @@
     <packaging>jar</packaging>
 
     <name>othertest</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Spring Boot Test</description>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.zhao</groupId>
+        <artifactId>springcould</artifactId>
+        <version>1.0</version>
     </parent>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
