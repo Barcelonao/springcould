@@ -11,6 +11,7 @@ public class OthertestApplicationTests {
 
     @Test
     public void contextLoads() {
+        System.out.println(System.currentTimeMillis());
     }
 
 }
