@@ -4,16 +4,17 @@
 
 端口
 
-1. eureka 1111
+###### 1. 注册中心: eureka 1111
 
-2. springconfig 7001
+###### 2. 配置中心: springconfig 7001
 
-3.user-module:8082
+###### 3. 服务1: user-service:8080
 
-4.zuul:2001
+###### 4. 网关 zuul:2001
 
-othertest 只是个test
-kafka
+###### 5.other
 
-遇见问题: SpringCould Config 服务化之后报错: spring cloud config server---No instances found of configserver 版本SpringBoot 2.1  springcould:Finchley.RELEASE 
+       5.1 othertest 测试工程
+
+       5.2 kafka 与spring整合测试demo
 
