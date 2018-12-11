@@ -17,6 +17,7 @@ import java.sql.Timestamp;
 import java.util.*;
 
 //@Slf4j
+@Deprecated
 public class JwtUtil {
     private final static String HS256_TOKEN = "this is a token";
 
@@ -176,13 +177,6 @@ public class JwtUtil {
 //        System.out.println(decode.getPayload());
 //        System.out.println(decode.getSignature());
 //        System.out.println(decode.getToken());
-        com.zhao.common.util.jwt.model.JWT jwt = new com.zhao.common.util.jwt.model.JWT();
-        jwt.test = 132L;
-        jwt.username = "哈哈哈";
-
-        Map<String, Object> stringObjectMap = entityToMap(jwt);
-
-        stringObjectMap.entrySet().stream().forEach(e -> System.out.println(e.getValue().getClass().getTypeName()));
 
         String[] a = new String[12];
 
