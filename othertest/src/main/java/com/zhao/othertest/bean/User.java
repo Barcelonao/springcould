@@ -2,13 +2,17 @@ package com.zhao.othertest.bean;
 
 import org.springframework.stereotype.Component;
 
+import javax.validation.constraints.NotNull;
 import java.util.Arrays;
+import java.util.List;
 
 @Component
 public class User implements Cloneable{
 
-    public int age;
+    @NotNull
+    public Integer age;
     public String name;
+
 
     public String string[] = {"111", "222", "333"};
     public User user;
@@ -61,6 +65,7 @@ public class User implements Cloneable{
 
     @Override
     public String toString() {
+
         return "User{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
